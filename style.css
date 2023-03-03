@@ -27,7 +27,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    z-index: 9999;
+/*     z-index: 9999; */
 /*     position: fixed; */
     width: 100%;
 /*     top: 0; */
@@ -238,5 +238,7 @@ footer > span {
     #nav-bar{
         flex-direction: row;
     }
-
+    #navbar{
+        z-index: 9999;
+    }
 }
