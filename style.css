@@ -53,6 +53,7 @@ body {
 
 .the-portfolio {
     font-size: 25px;
+    color: var(--color);
     margin-left: 10px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
