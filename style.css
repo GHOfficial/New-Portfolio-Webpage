@@ -236,9 +236,6 @@ footer > span {
 @media only screen and (min-width: 768px){
     #nav-bar{
         flex-direction: row;
-    }
-    #navbar{
         z-index: 9999;
         top: 0;
-    }
 }
