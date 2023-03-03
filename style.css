@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
+
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --text: hsl(228, 12%, 48%);
+    --color: hsl(32, 37%, 92%);
+    --orange: hsl(33, 100%, 50%);
+}
+
+body {
+    background-color: var(--color);
+    text-align: center;
+}
+
+* {
+    margin: 0;
+}
+
+#header-img {
+    width: 60px;
+    object-fit: contain
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: var(--text);
+    padding: 0 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.the-portfolio {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    /* margin-bottom: 10px; */
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+#name {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+#About > h2 > p{
+    font-family: 'Poppins', sans-serif;
+    /* margin-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#About{
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px;
+    /* margin-top: 90px; */
+    font-family: "montserrat";
+    margin-bottom: 50px;
+}
+
+
+
+/* New Project Section */
+
+
+#project-section {
+    background-color: #f2ebe3;
+    padding: 20px;
+    margin-top: 60px;
+
+}
+
+.project-item a {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* align-items: last baseline; */
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    position: relative;;
+}
+
+.project-item a:hover {
+    opacity: 0.8;
+}
+
+#project-section h2 {
+    font-family: "montserrat";
+    /* font-size: 36px; */
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.project-item {
+    margin: 10px;
+    /* border: 1px solid rgb(208, 203, 203); */
+    border-radius: 13px;
+    box-shadow: #666666;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project-item h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+.project-item p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+
+/* New Project Section */
+
+
+
+footer{
+    margin-top: 130px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+footer > ul{
+    display: flex;
+    justify-content: flex-start;
+}
+
+li{
+    list-style: none;
+}
+
+footer > ul > li{
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+a{
+    /* padding-top: 30px; */
+    font-family: "Poppins";
+    color: #000;
+    text-decoration: none;
+}
+
+footer > ul > li > a > i{
+    font-size: 30px;
+}
+
+footer > ul > li > a > i:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+footer > span {
+    font-family: "Poppins";
+    align-items: flex-end;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
+
+@media only screen and (min-width: 768px){
+    #nav-bar{
+        flex-direction: row;
+    }
+
+}
