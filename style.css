@@ -28,7 +28,7 @@ body {
     justify-content: space-around;
     align-items: center;
     z-index: 9999;
-    position: fixed;
+/*     position: fixed; */
     width: 100%;
 /*     top: 0; */
     background-color: var(--white);
